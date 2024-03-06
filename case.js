@@ -703,7 +703,8 @@ let status = false
 Object.keys(_dir).forEach((i) => {
 if (_dir[i].id === from) {
 status = true
-}
+}clera
+
 })
 return status
 }
@@ -3599,27 +3600,25 @@ let result912 = anu[Math.floor(Math.random(), anu.length)]
 alice.sendMessage(m.chat, { video: { url: result912.video_1 }, caption: `Title : ${result912.title}\nCategory : ${result912.category}\nMimetype : ${result912.type}\nViews : ${result912.views_count}\nShares : ${result912.share_count}\nSource : ${result912.link}\nMedia Url : ${result912.video_1}` }, { quoted: m })
 }
 break
-case 'art':
-case 'awoo':
-case 'bts':
-case 'cogan':
-case 'elaina2':
-case 'exo':
-case 'elf':
-case 'estetic':
-case 'kanna':
-case 'loli':
-case 'neko':
-case 'waifu':
-case 'shota':
-case 'husbu':
-case 'sagiri':
 case 'shinobu':
-case 'megumin':
-case 'wallnime':
-case 'quotesimage':
 if (!isGroup) return onlyGroup()
-alice.sendMessage(from, { image: { url: `https://api.lolhuman.xyz/api/random/${command}?apikey=haikalgans` } })
+alice.sendMessage(from, { image: { url: `https://skizo.tech/api/sfw?search=shinobu&apikey=${global.skyzo}` } })
+break
+case 'megumin':
+if (!isGroup) return onlyGroup()
+alice.sendMessage(from, { image: { url: `https://skizo.tech/api/sfw?search=megumin&apikey=${global.skyzo}` } })
+break
+case 'neko':
+if (!isGroup) return onlyGroup()
+alice.sendMessage(from, { image: { url: `https://skizo.tech/api/sfw?search=neko&apikey=${global.skyzo}` } })
+break
+case 'waifu':
+if (!isGroup) return onlyGroup()
+alice.sendMessage(from, { image: { url: `https://skizo.tech/api/sfw?search=waifu&apikey=${global.skyzo}` } })
+break
+case 'loli':
+if (!isGroup) return onlyGroup()
+alice.sendMessage(from, { image: { url: `https://skizo.tech/api/loli?apikey=${global.skyzo}` } })
 break //Powered By alice & Darwin
 case 'bokep1':
 let ntahlah1 = await getBuffer(`https://sfmcompile.club/wp-content/uploads/2022/08/Brigitte-fucked-at-the-gym.mp4`)
