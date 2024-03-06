@@ -306,12 +306,30 @@ let welkom = `
      *WELCOME USER @${num.split("@")[0]}*
 ╰─────────────────────────────┛
 ─────────────────────────────┈
-*SELAMAT DATANG DI GROUP* *_${metadata.subject}_* 
-*MAAF KAK SAYA MAU MEMBERI TAU BAHWA DI FITUR*
-*ADA FITUR YANG SANGAT LANGKA YAITU FITUR* *_JADIBOT_* ,
-*FITUR* *_JADIBOT_* *FITUR BOTCLONE. JIKA INGIN MEGUNAKAN NYA*
-*SILAKAN DAFTAR TERLEBIH DAHULU* KETIK: _.Daftar Nama.umur_
-*KALAU ANDA SUDAH DAFTAR KETIK* *_.Menu_*
+*_Selamat👋👋Datang Di Group_* *_${metadata.subject}_*
+
+*SILAKAN INTO DULU ENGAK INTRO HILANG*
+*KELAMIN NYA*
+
+0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡
+
+│       *「 Kartu Intro 🎗️」*
+│ *Nama    :* 
+│ *Umur     :* 
+│ *Hobby   :* 
+│ *Kelas     :*
+│ *Asal       :* 
+│ *Status    :* 
+│ 
+╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
+
+*Dan jagan Lupa daftar Buat bot*
+Ketik *_.Daftar Nama.umur_*
+*_Bila Sudah Daftar Ketik _.menu_
+
+*Bila Bott No Respone chat* :6282143965793
+
+*Agar Bot bisa Jalan Terus Kasihlah 5.000*😁😁
 `
 alice.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: welkom })
 } else if (anu.action == 'remove') {
